@@ -2,7 +2,7 @@
 
 body {
   background-color: #000;
-  color: #fafafa;
+  color: #ccc;
 
   min-height: 100%;
   height: 100%;
@@ -52,7 +52,7 @@ card {
   padding: .5em;
   position: relative;
 
-  background-color: #fafafa;
+  background-color: #9a9a9a;
   color: #000;
 }
 
