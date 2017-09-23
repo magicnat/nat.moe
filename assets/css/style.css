@@ -1,0 +1,82 @@
+* { margin: 0; }
+
+body {
+  background-color: #000;
+  color: #fafafa;
+
+  min-height: 100%;
+  width: 100%;
+
+  display: table;
+  overflow: hidden;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media (max-height: 820px) {
+  .header { display: none }
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  margin: 1em;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.title {
+  font-family: 'Libre Barcode 39 Text';
+}
+
+.header > .title {
+  font-size: 80px;
+}
+
+cardbox {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+card {
+  display: block;
+
+  min-width: 20em;
+  max-width: 36em;
+
+  margin: 1em auto;
+  padding: .5em;
+  position: relative;
+
+  background-color: #fafafa;
+  color: #000;
+}
+
+card > .title {
+  font-size: 44px;
+  border-bottom: 2px solid #333;
+  margin-bottom: .1em;
+}
+
+card > .descr {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+card:after {
+  content: 'QC PASSED';
+  font-size: 12px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+@media (min-width: 500px) {
+  card:after {
+    position: absolute;
+    right: .5em;
+    top: .5em;
+  }
+}
