@@ -1,5 +1,7 @@
 * { margin: 0; }
 
+a { text-decoration: none; }
+
 body {
   background-color: #000;
   color: #ccc;
