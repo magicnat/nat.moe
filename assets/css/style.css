@@ -28,10 +28,6 @@ body {
     text-shadow: 1px 1px rgba(100, 100, 100, 0.95);
 }
 
-.title {
-    font-family: 'Libre Barcode 39 Text';
-}
-
 .header > .title {
     font-size: 4.2em;
 }
