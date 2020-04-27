@@ -1,33 +1,47 @@
+<!DOCTYPE html>
 <html>
 <head>
 <title>nato network</title>
 <link href="assets/css/style.css" rel="stylesheet" />
 <link href="assets/css/background.css" rel="stylesheet" />
 <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text|Roboto+Mono|Source+Sans+Pro" rel="stylesheet" />
-<script src="assets/js/background.js"></script>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=.7, minimum-scale=.7, maximum-scale=.7" />
 </head>
 <body>
   <div class="header">
-    <span class="title">NATO LABORATORY NETWORK</span>
+    <span class="title">NATO LABORATORY</span>
   </div>
-  <cardbox class="warpper">
-    <a href='https://who.nat.moe/'><card descr="person">
-      <div class="title">Nato Morichika</div>
-      <div class="descr">@moe.nat.person.nato :: human</div>
-    </card></a>
-    <a href='https://internet.nat.moe/'><card descr="laboratory">
-      <div class="title">Nato Research Ltd</div>
-      <div class="descr">@moe.nat.org.natolab :: organization</div>
-    </card></a>
-    <a href='https://lab.nat.moe/'><card descr="blog">
-      <div class="title">Nato Laboratory</div>
-      <div class="descr">@moe.nat.web.blog :: blog</div>
-    </card></a>
+  <div class="wrapper">
+    <ul class="cardsbox">
+      <li class="card">
+        <a href="https://who.nat.moe/" target="_blank">
+          <div class="subdomain red" domain=".nat.moe" color="#ff6f69" >who</div>
+          <div class="description">about nato, a person.</div>
+        </a>
+      </li>
+      <li class="card">
+        <a href="https://lab.nat.moe/" target="_blank">
+          <div class="subdomain yellow" domain=".nat.moe" color="#ff6f69" >lab</div>
+          <div class="description">about nato laboratory, a lab.</div>
+        </a>
+      </li>
+      <li class="card">
+        <a href="https://internet.nat.moe/" target="_blank">
+          <div class="subdomain green" domain=".nat.moe" color="#ff6f69" >internet</div>
+          <div class="description">about nato-internet, a service.</div>
+        </a>
+      </li>
+      <li class="card">
+        <a href="https://service.nat.moe/" target="_blank">
+          <div class="subdomain black" domain=".nat.moe" color="#ff6f69" >service</div>
+          <div class="description">nato-internet's coustmer support center.</div>
+        </a>
+      </li>
+    </ul>
   </cardbox>
   <div class="footer">
-    Copyright &copy; 2017 Nato Morichika
+    Copyright &copy; 2017-2020 Nato Morichika
   </div>
   <div class="bg">
     <div id="bgl1"></div>
@@ -35,5 +49,4 @@
     <div id="bgl3"></div>
   </div>
 </body>
-<script>anim_layers(['bgl1', 'bgl2', 'bgl3']);</script>
 </html>
