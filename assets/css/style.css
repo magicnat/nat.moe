@@ -109,4 +109,5 @@ div.description {
     top: 2px;
     position: relative;
     transform: rotate(180deg);
+    text-shadow: -1px -1px rgba(100, 100, 100, 0.95);
 }
